@@ -1,0 +1,151 @@
+City,Place,Wheelchair_Accessibility_Score,Visual_Accessibility_Score
+Delhi,Chandni Chowk,3,4
+Delhi,Connaught Place,7,7
+Delhi,Delhi Airport Metro Express,8,8
+Delhi,Friday Mosque (Jama Masjid),5,6
+Delhi,Gurudwara Bangla Sahib,6,7
+Delhi,Hauz Khas Village,4,5
+Delhi,Humayun's Tomb,7,7
+Delhi,ISKCON Temple Delhi,6,7
+Delhi,India Gate,8,8
+Delhi,Lodhi Garden,6,7
+Delhi,Lotus Temple,7,7
+Delhi,Qutub Minar,6,6
+Delhi,Rashtrapati Bhavan,8,8
+Delhi,Red Fort (Lal Quila),6,6
+Delhi,Swaminarayan Akshardham,8,8
+Agra,Agra Fort,5,6
+Agra,Anguri Bagh,5,6
+Agra,Dayal Bagh,5,6
+Agra,Diwan-i-Am Agra Fort,5,6
+Agra,Jahangir Mahal,5,6
+Agra,Jama Masjid,5,6
+Agra,Jawab Masjid,5,6
+Agra,Kalakriti Cultural & Convention Center,7,7
+Agra,Mehtab Bagh,5,6
+Agra,Mother Teresa's Missionaries of Charity,5,6
+Agra,Sheesh Mahal,5,6
+Agra,Taj Mahal,5,6
+Agra,Taj Museum,5,6
+Agra,Tomb of Itimad-ud-Daulah,5,6
+Agra,Wildlife SOS,6,7
+Bengaluru,Art of Living International Center,7,7
+Bengaluru,Bangalore Palace,6,7
+Bengaluru,Bannerghatta National Park,5,6
+Bengaluru,Commercial Street,4,5
+Bengaluru,Cubbon Park,7,7
+Bengaluru,ISKCON Temple Bangalore,6,7
+Bengaluru,Innovative Film City,6,7
+Bengaluru,Lalbagh Botanical Garden,7,7
+Bengaluru,Mahatma Gandhi (MG) Road,7,7
+Bengaluru,Phoenix Marketcity,8,8
+Bengaluru,Tipu Sultan Fort and Palace - Bangalore KR Market,6,7
+Bengaluru,UB City,8,8
+Bengaluru,Vidhana Soudha and Attara Kacheri,7,7
+Bengaluru,Visvesvaraya Industrial and Technological Museum,6,7
+Bengaluru,Wonderla Amusement Park,6,6
+Chennai,Arignar Anna Zoological Park,6,5
+Chennai,Besant Nagar Beach,4,6
+Chennai,Chennai Central Railway Station,5,5
+Chennai,Elliot's Beach,4,6
+Chennai,Express Avenue Mall,8,8
+Chennai,Kapaleeshwarar Temple,5,5
+Chennai,Marina Beach,4,6
+Chennai,Mylapore,5,6
+Chennai,Parthasarathy Temple,5,5
+Chennai,San Thome Church,5,6
+Chennai,"T Nagar, Ranganathan Street",4,5
+Chennai,The Forum Vijaya Mall,8,8
+Chennai,VGP Snow Kingdom,6,6
+Chennai,VGP Universal Kingdom,6,6
+Chennai,Vadapalani Murugan Temple,5,5
+Hyderabad,Birla Mandir,7,7
+Hyderabad,Buddha Statue,7,7
+Hyderabad,Charminar,5,5
+Hyderabad,Chilkur Balaji Temple,5,6
+Hyderabad,Chowmahalla Palace,6,6
+Hyderabad,Golconda Fort,4,5
+Hyderabad,Hussain Sagar Lake,6,7
+Hyderabad,Lumbini Park,7,7
+Hyderabad,Nehru Zoological Park,6,6
+Hyderabad,Ramoji Film City,6,6
+Hyderabad,Salar Jung Museum,6,6
+Hyderabad,Shilparamam Cultural Society,7,7
+Hyderabad,Shri Jagannath Temple,5,6
+Hyderabad,Taj Falaknuma Palace,7,7
+Hyderabad,Wonderla Amusement Park,6,6
+Jaipur,Albert Hall Museum,5,5
+Jaipur,Amer Jeep Safari,2,3
+Jaipur,Anokhi Museum of Hand Printing,4,5
+Jaipur,Birla Mandir Temple,6,6
+Jaipur,City Palace of Jaipur,4,5
+Jaipur,Govind Devji Temple,5,4
+Jaipur,Hawa Mahal - Palace of Wind,3,2
+Jaipur,Jaigarh Fort,3,3
+Jaipur,Jal Mahal,1,2
+Jaipur,Jantar Mantar - Jaipur,5,3
+Jaipur,Make Bike Trip,1,2
+Jaipur,Monkey Temple,2,3
+Jaipur,Moti Dungari Temple,5,4
+Jaipur,Nahargarh Fort,3,3
+Jaipur,Panna Meena ka Kund,3,4
+Kolkata,College Street (Boi Para),3,4
+Kolkata,Dakshineswar Kali Temple,5,4
+Kolkata,Eco Tourism Park,6,5
+Kolkata,Eden Gardens,7,4
+Kolkata,Howrah Bridge,2,3
+Kolkata,Indian Museum (Jadu Ghar),5,5
+Kolkata,Kalighat Kali Temple,5,4
+Kolkata,Metro Railway,6,4
+Kolkata,Mother House,5,6
+Kolkata,New Market,2,3
+Kolkata,Nicco Parks & Resorts Limited,4,3
+Kolkata,Park Street,4,4
+Kolkata,Prinsep Ghat,5,4
+Kolkata,Science City,7,6
+Kolkata,Victoria Memorial Hall,6,6
+Mumbai,Bandra-Worli Sea Link,2,3
+Mumbai,Chhatrapati Shivaji Terminus,5,5
+Mumbai,Colaba,4,5
+Mumbai,Elephanta Caves,3,3
+Mumbai,Essel World,4,3
+Mumbai,Gateway of India,6,5
+Mumbai,Juhu Beach,3,3
+Mumbai,KidZania Mumbai,5,4
+Mumbai,Mani Bhavan Gandhi Museum,4,5
+Mumbai,Marine Drive,6,4
+Mumbai,Mount Mary Basilica,5,4
+Mumbai,Nariman Point,6,5
+Mumbai,Shree Siddhivinayak,5,4
+Mumbai,Sri Sri Radha Gopinath Temple,5,4
+Mumbai,Water Kingdom,4,3
+Pune,Aga Khan Palace,5,5
+Pune,Chaturshrungi Temple,3,4
+Pune,Dagadusheth Halwai Ganapati Temple,5,4
+Pune,Darshan Museum,6,6
+Pune,ISKCON NVCC Temple,6,6
+Pune,Laxmi Road,3,4
+Pune,Malshej Ghats,2,3
+Pune,Phoenix Market City,7,5
+Pune,Pune Okayama Friendship Garden,6,5
+Pune,Raja Dinkar Kelkar Museum,4,5
+Pune,Rajiv Gandhi Zoological Park,6,4
+Pune,Sarasbaug Ganpati Temple,5,4
+Pune,Shaniwar Wada,4,4
+Pune,Sinhagad Fort,2,2
+Pune,Sri Balaji Mandir,6,6
+Udaipur,Bagore Ki Haveli Museum,4,5
+Udaipur,Chetak Smarak,6,4
+Udaipur,City Palace Museum,5,5
+Udaipur,City Palace of Udaipur,4,5
+Udaipur,Crystal Gallery,5,6
+Udaipur,Ekling Ji Temple,5,4
+Udaipur,Jagdish Temple,5,4
+Udaipur,Jagmandir,3,3
+Udaipur,Lake Pichola,3,3
+Udaipur,Maharana Pratap Memorial,6,4
+Udaipur,Monsoon Palace,3,3
+Udaipur,Sahelion Ki Bari,6,5
+Udaipur,Shilpgram,5,4
+Udaipur,Srinathji Temple,5,4
+Udaipur,Vintage Collection of Classic Cars Museum,5,6

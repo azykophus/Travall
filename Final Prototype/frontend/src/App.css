@@ -1,0 +1,373 @@
+body {
+  background-image: url('./assets/valley.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
+  /* Vertical center */
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-card {
+  width: 50%;
+  max-width: 350px;
+  padding: 0% 25% 0% 25%;
+}
+
+.form-title { 
+  font-size: 42px; 
+  font-family: 'Avenir'; 
+  font-weight: 800; 
+  letter-spacing: 0.5px; 
+  color: #e8e8e8; 
+  padding-bottom: 12px; 
+}
+
+.form-subtitle {
+  font-size: 18px;
+  font-family: 'Avenir';
+  letter-spacing: 0.5px;
+  color: #afafaf;
+  padding-bottom: 24px;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+.auth-label {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-size: 11px;
+  color: rgb(175, 175, 175);
+  font-family: Avenir;
+  width: 100px;
+}
+.auth-input {
+  background-color: #3e404b;
+  color: white;
+  font-family: "Avenir";
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: calc(100% - 18px - 18px);
+  margin-bottom: 12px;
+}
+.auth-button {
+  width: 100%;
+  height: 53px;
+  color: white;
+  background-color: #fa541c;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: "Avenir";
+  cursor: pointer;
+  transition: all .44s ease;
+  -webkit-transition: all .44s ease;
+  -moz-transition: all .44s ease;
+}
+.auth-button:hover { filter: brightness(145%); }
+
+.chat-wrapper {
+  height: 80vh; 
+  width: 80%;
+  margin-left: 10%; 
+  color: white; 
+  background: rgb(43, 47, 60);
+}
+
+/* App.css */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Consider using a more aesthetic font */
+}
+
+.App-header {
+  background-image: url('/Users/abhijaysingh/Downloads/img2.jpg'); /* Make sure to replace this path */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 10%;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.App-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.App-nav li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.App-nav li:hover {
+  color: #007bff;
+}
+
+.hero {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.search-bar {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem; /* Added gap for visual separation */
+}
+
+.search-bar input {
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 20px 0 0 20px; /* First dropdown rounded on the left side */
+  background-color: #f9f9f9; /* Light grey background for a subtle look */
+  color: #333;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 3000px; /* Fixed width for the dropdown */
+  z-index: 10;
+}
+
+.city-options {
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 0px 0 0 0px; /* First dropdown rounded on the left side */
+  background-color: #f9f9f9; /* Light grey background for a subtle look */
+  color: #333;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 120px; /* Fixed width for the dropdown */
+  z-index: 10;
+}
+
+
+.accessibility-options {
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 0px 0 0 0px; /* First dropdown rounded on the left side */
+  background-color: #f9f9f9; /* Light grey background for a subtle look */
+  color: #333;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 250px; /* Fixed width for the dropdown */
+  z-index: 10;
+}
+
+
+.city-options::after,
+.accessibility-options::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-top-color: #333;
+  pointer-events: none;
+}
+
+.search-button {
+  background-image: url('/Users/abhijaysingh/Downloads/travall2/frontend/public/icon.png');
+  background: none;
+  border: none;
+  background: #078bc8;
+  border-radius: 0 20px 20px 0; /* Button rounded on the right side */
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .search-button img {
+  background-image: url('/Users/abhijaysingh/Downloads/travall2/frontend/public/icon.png');
+  width: 27px;
+  height: 27px;
+} */
+
+.search-bar button:hover {
+  background: #0056b3;
+}
+
+/* Styles for the toggle button */
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px; /* Adjust margin as needed */
+  gap: 20px;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default checkbox */
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Rounded sliders */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Text for the options */
+.option {
+  margin-left: 10px; /* Adjust margin as needed */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  color: #ffffff; /* Adjust color as needed */
+  
+  
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .App-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .App-nav ul {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    width: 80%; /* Adjust width for mobile */
+  }
+
+  .search-bar input,
+  .city-options,
+  .accessibility-options,
+  .search-button {
+    width: 100%; /* Full width on mobile */
+    border-radius: 20px; /* Adjusted for mobile */
+    margin: 4px 0; /* Add a slight margin around elements */
+    padding: 12px; /* Increase padding for tap targets */
+  }
+}
+.output-container {
+  margin-top: 20px; /* Adjust margin as needed */
+  padding: 20px; /* Add padding for spacing */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid rgba(255, 255, 255, 0.2); /* White border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.output-container p {
+  margin: 0; /* Remove default paragraph margin */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  color: #ffffff; /* Text color */
+}
+
+.App {
+  background-image: url('/Users/abhijaysingh/Downloads/travall2/frontend/src/assets/img.jpeg'); /* Replace with the path to your background image */
+}
+
+/* Background image for toggle on */
+.App.toggle-on {
+  background-image: url('/Users/abhijaysingh/Downloads/travall2/frontend/src/assets/img2.jpeg'); /* Replace with the path to your background image */
+}
